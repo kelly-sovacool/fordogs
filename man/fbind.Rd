@@ -12,7 +12,7 @@ fbind(a, b)
 \item{b}{another factor}
 }
 \value{
-a new factor
+a new factor with the union of the input factors' levels
 }
 \description{
 Create a new factor from two existing factors, where the new factor's levels
