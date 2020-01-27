@@ -5,7 +5,7 @@
 #'
 #' @param a a factor
 #' @param b another factor
-#' @return a new factor
+#' @return a new factor with the union of the input factors' levels
 #' @export
 #' @examples
 #' fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
