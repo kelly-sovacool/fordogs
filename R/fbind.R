@@ -1,11 +1,11 @@
-#' Bnd two factor
+#' Bind two factors
 #'
-#' Create a new factor from two existing factors, where the new factors levls
-#' are the union of the levels of th input factors.
+#' Create a new factor from two existing factors, where the new factor's levels
+#' are the union of the levels of the input factors.
 #'
-#' @param a x
-#' @param b x
-#' @return x
+#' @param a a factor
+#' @param b another factor
+#' @return a new factor
 #' @export
 #' @examples
 #' fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])

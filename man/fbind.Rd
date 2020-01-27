@@ -2,21 +2,21 @@
 % Please edit documentation in R/fbind.R
 \name{fbind}
 \alias{fbind}
-\title{Bnd two factor}
+\title{Bind two factors}
 \usage{
 fbind(a, b)
 }
 \arguments{
-\item{a}{x}
+\item{a}{a factor}
 
-\item{b}{x}
+\item{b}{another factor}
 }
 \value{
-x
+a new factor
 }
 \description{
-Create a new factor from two existing factors, where the new factors levls
-are the union of the levels of th input factors.
+Create a new factor from two existing factors, where the new factor's levels
+are the union of the levels of the input factors.
 }
 \examples{
 fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
